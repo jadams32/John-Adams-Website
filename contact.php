@@ -1,7 +1,6 @@
 <?php
 if (isset($_POST['email'])) {
 
-    // EDIT THE FOLLOWING TWO LINES:
     $email_to = "john.c.adams32@gmail.com";
     $email_subject = "Portfolio submissions";
 
@@ -56,9 +55,9 @@ if (isset($_POST['email'])) {
         return str_replace($bad, "", $string);
     }
 
-    $email_message .= "name: " . clean_string($name) . "\n";
-    $email_message .= "email: " . clean_string($email) . "\n";
-    $email_message .= "message: " . clean_string($message) . "\n";
+    $email_message .= "Name: " . clean_string($name) . "\n";
+    $email_message .= "Email: " . clean_string($email) . "\n";
+    $email_message .= "Message: " . clean_string($message) . "\n";
 
     // create email headers
     $headers = 'From: ' . $email . "\r\n" .
