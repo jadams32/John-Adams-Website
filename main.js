@@ -1,4 +1,3 @@
-console.log('It Works!')
 
 $(document).ready(function(){
   $('.button primary').click(function(event){
