@@ -1220,7 +1220,7 @@ input, select, textarea {
 				height: 6rem;
 				line-height: 6rem;
 				border-radius: 6rem;
-				box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
+				box-shadow: inset 2px 0 0 2px rgba(255, 255, 255, 0.25);
 				font-size: 2.5rem;
 				margin: 0 auto;
 				text-align: center;
@@ -1247,7 +1247,7 @@ input, select, textarea {
 		ul.grid-icons.connected > li:before {
 			content: '';
 			display: block;
-			position: absolute3;
+			position: absolute;
 			width: 1.5rem;
 			height: 2px;
 			top: 50%;
